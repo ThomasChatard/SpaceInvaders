@@ -1,4 +1,6 @@
-package SpaceInvader.SpaceInvader;
+package fr.unilim.iut.spaceinvaders.SpaceInvader;
+
+import fr.unilim.iut.spaceinvaders.utils.HorsEspaceJeuException;
 
 public class SpaceInvaders {
 

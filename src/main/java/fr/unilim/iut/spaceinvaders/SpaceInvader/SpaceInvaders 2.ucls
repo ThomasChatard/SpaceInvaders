@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="SpaceInvader.SpaceInvader.Vaisseau" project="SpaceInvader" 
-    file="/SpaceInvader/src/main/java/SpaceInvader/SpaceInvader/Vaisseau.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="fr.unilim.iut.spaceinvaders.SpaceInvader.Vaisseau" project="SpaceInvader" 
+    file="/SpaceInvader/src/main/java/fr/unilim/iut/spaceinvaders/SpaceInvader/Vaisseau.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="135" width="185" x="80" y="130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +11,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="SpaceInvader.SpaceInvader.SpaceInvaders" project="SpaceInvader" 
-    file="/SpaceInvader/src/main/java/SpaceInvader/SpaceInvader/SpaceInvaders.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="fr.unilim.iut.spaceinvaders.SpaceInvader.SpaceInvaders" project="SpaceInvader" 
+    file="/SpaceInvader/src/main/java/fr/unilim/iut/spaceinvaders/SpaceInvader/SpaceInvaders.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="261" width="267" x="405" y="87"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -21,8 +23,12 @@
   </class>  
   <association id="3">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="4" name="vaisseau"/>      
-      <multiplicity id="5" minimum="0" maximum="1"/>    
+      <attribute id="4" name="vaisseau">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="5" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
