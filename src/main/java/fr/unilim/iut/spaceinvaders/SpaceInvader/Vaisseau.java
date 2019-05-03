@@ -4,6 +4,7 @@ public class Vaisseau {
 
    private Position origine;
    private Dimension dimension;
+   
 
    public Vaisseau(int longueur, int hauteur) {
 	    this(longueur, hauteur, 0, 0);
